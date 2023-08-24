@@ -2,16 +2,53 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://unpkg.com/normalize.css@7.0.0/normalize.css">
+        <style>
+            header,
+            nav {
+                color: #FFFFFF;
+                background-color: #FD739C;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1, 
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            body {
+                font-size: 22px;
+                line-height: 34px;
+            }
+            header {
+                padding: 0px 0px 50px;
+                line-height: 50px;
+            }
+            nav {
+                padding-bottom: 200px;
+            }
+            h1 {
+                margin-top: 10px;
+            }
+            .landing-section-whoami {
+                padding-top: 50px;
+            }
+        </style>
         <title>Курс по фронтэнду 1.5</title>
+
     </head>
     <body>
-        <nav><a href="#whoami">Кто я такой</a></nav>
-        <header><h1>Курс по фронтэнду. <br />
-            Версия 1.5
-        </h1>
-        <p>Премиальный. Бутиковый. Практический.</p></header>
+       
+        <header>
+            <nav>
+                <a href="#whoami">Кто я такой</a>
+            </nav>
+            <h1>Курс по фронтэнду. <br />
+                Версия 1.5
+            </h1>
+            <p>Премиальный. Бутиковый. Практический.</p>
+        </header>
         <main>
-            <section id = "whoami">
+            <section class = "landing-section-whoami" id = "whoami">
                 <h2>Кто я такой</h2>        
                 <p>Меня зовут Евгений Родионов, и я учу людей фронтэнду. </p>
                 <p>Я руководил разработкой Рублёвки ру и обучил команду, которая сейчас работает в Тинькофф, Рокетбанке, Ростелекоме и немецком Kairion.</p>
@@ -20,7 +57,7 @@
                 <aside>Спроси у Жени, Ильи, Кости, Люды и Лизы.</aside>
             </section>
 
-            <section id = "changelog">   
+            <section class = "landing-section-changelog" id = "changelog">   
                 <h2>Ченджлог к версии 1.5</h2>
                 <p>Я провёл 4 потока и понял узкие места курса. Да, люди добивались своих целей - находили работу или запускают продукты, но сила трения была высокой, so every update of our Facebook app includes <br />
                 improvements for speed and reliability. <br />
@@ -33,7 +70,7 @@
                 </ul>
                 <h3>Стало</h3>
                 <ul>
-                    <li>&#128293 макеты и АПИ слеланы по начала куоса;</li>
+                    <li>&#128293 макеты и АПИ слеланы до начала курса;</li>
                     <li>&#128293 новые объясняющие видео;</li>
                     <li>&#128293 программа не будет пргать на ходу;</li>
                 </ul>
